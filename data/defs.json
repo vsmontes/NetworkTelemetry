@@ -1,0 +1,32 @@
+{
+	"output_path" : "C:/datalab/network/output/",
+	"inputs":
+	[
+		{
+			"type": "CSV",
+			"path": "C:\\DATALAB\\NETWORK\\WORKLOAD\\input1.csv",
+			"x": 200,
+			"y": 5000,
+			"interval": 4000,
+			"id": 10
+		},
+		{
+			"type": "CSV",
+			"path": "C:\\DATALAB\\NETWORK\\WORKLOAD\\input2.csv",
+			"x": 200,
+			"y": 10000,
+			"interval": 7000,
+			"id": 10
+		},
+		{
+			"type": "BIN",
+			"path": "C:\\DATALAB\\NETWORK\\WORKLOAD\\input1.bin",
+			"x": 100,
+			"y": 2000,
+			"interval": 50,			
+			"window_size_sec" : 2
+		}
+	]
+}
+		
+		
